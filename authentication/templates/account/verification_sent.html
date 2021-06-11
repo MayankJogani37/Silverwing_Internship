@@ -1,7 +1,7 @@
 {% extends 'common.html' %}
 {% load static %}
-{% block content %}
 
+{% block content %}
         <!-- pages-title-start -->
 		<section class="contact-img-area">
             <div class="container">
@@ -20,58 +20,12 @@
 		<div class="login-area">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-3">
-
-                    </div>
+                    <div class="col-md-3"></div>
                     <div class="col-md-6 col-xs-12">
-                        <div class="col-md-6 col-xs-12">
-                        <div class="tb-login-form res">
-                            <h5 class="tb-title">Create a new account</h5>
-                            <p>Hello, Welcome your to account</p>
-                            <form class="signup" id="signup_form" method="post" action="{% url 'account_signup' %}" >
-                                {% csrf_token %}
-                                <p class="checkout-coupon top log a-an">
-                                    <label class="l-contact">
-                                        Username
-                                        <em>*</em>
-                                    </label>
-                                    <input id="login" type="text" name="username" placeholder="Username">
-                                </p>
-                                <p class="checkout-coupon top log a-an">
-                                    <label class="l-contact">
-                                        Email Address
-                                        <em>*</em>
-                                    </label>
-                                    <input id="email" name="email" placeholder="Email" type="email">
-                                </p>
-                                <p class="checkout-coupon top log a-an">
-                                    <label class="l-contact">
-                                        Password
-                                        <em>*</em>
-                                    </label>
-                                    <input id="password1" type="password" name="password1" placeholder="Password">
-                                </p>
-                                <p class="checkout-coupon top log a-an">
-                                    <label class="l-contact">
-                                        Confirm Password
-                                        <em>*</em>
-                                    </label>
-                                    <input id="password2" type="password" name="password2" placeholder="Password">
-                                </p>
-                                <div class=" row">
-                                    <div class="col-md-6">
-                                        {% if redirect_field_value %}
-                                            <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
-                                        {% endif %}
-                                    </div>
-                                </div>
-                                <p style="margin-bottom: 20px;">If you have account then <a href="{% url 'account_login' %}">login here...</a></p>
-                                <p class="login-submit5 ress">
-                                    <input value="signup" class="button-primary" type="submit">
-                                </p>
-                            </form>
+                        <h1>Verify Your E-mail Address</h1>
+                        <p>We have sent an e-mail to you for verification. Follow the link provided to finalize the signup process. Please contact us if you do not receive it within a few minutes.</p>
 
-                        </div>
+
                     </div>
                 </div>
             </div>
@@ -95,25 +49,25 @@
 													<div class="quick-image">
 														<div class="single-quick-image tab-content text-center">
 															<div class="tab-pane  fade in active" id="sin-pro-1">
-																<img src="{% static 'images/quick-view/10.jpg' %}" alt="" />
+																<img src="img/quick-view/10.jpg" alt="" />
 															</div>
 															<div class="tab-pane fade in" id="sin-pro-2">
-																<img src="{% static 'images/quick-view/10.jpg' %}" alt="" />
+																<img src="img/quick-view/10.jpg" alt="" />
 															</div>
 															<div class="tab-pane fade in" id="sin-pro-3">
-																<img src="{% static 'images/quick-view/10.jpg' %}" alt="" />
+																<img src="img/quick-view/10.jpg" alt="" />
 															</div>
 															<div class="tab-pane fade in" id="sin-pro-4">
-																<img src="{% static 'images/quick-view/10.jpg' %}" alt="" />
+																<img src="img/quick-view/10.jpg" alt="" />
 															</div>
 														</div>
 														<div class="quick-thumb">
 															<div class="nav nav-tabs">
 																<ul>
-																	<li><a data-toggle="tab" href="#sin-pro-1"> <img src="{% static 'images/quick-view/10.jpg' %}" alt="quick view" /> </a></li>
-																	<li><a data-toggle="tab" href="#sin-pro-2"> <img src="{% static 'images/quick-view/10.jpg' %}" alt="quick view" /> </a></li>
-																	<li><a data-toggle="tab" href="#sin-pro-3"> <img src="{% static 'images/quick-view/10.jpg' %}" alt="quick view" /> </a></li>
-																	<li><a data-toggle="tab" href="#sin-pro-4"> <img src="{% static 'images/quick-view/10.jpg' %}" alt="quick view" /> </a></li>
+																	<li><a data-toggle="tab" href="#sin-pro-1"> <img src="img/quick-view/10.jpg" alt="quick view" /> </a></li>
+																	<li><a data-toggle="tab" href="#sin-pro-2"> <img src="img/quick-view/10.jpg" alt="quick view" /> </a></li>
+																	<li><a data-toggle="tab" href="#sin-pro-3"> <img src="img/quick-view/10.jpg" alt="quick view" /> </a></li>
+																	<li><a data-toggle="tab" href="#sin-pro-4"> <img src="img/quick-view/10.jpg" alt="quick view" /> </a></li>
 																</ul>
 															</div>
 														</div>
@@ -217,25 +171,25 @@
 													<div class="quick-image">
 														<div class="single-quick-image tab-content text-center">
 															<div class="tab-pane  fade in active" id="sin-pro-5">
-																<img src="{% static 'images/quick-view/10.jpg' %}" alt="" />
+																<img src="img/quick-view/10.jpg" alt="" />
 															</div>
 															<div class="tab-pane fade in" id="sin-pro-6">
-																<img src="{% static 'images/quick-view/10.jpg' %}" alt="" />
+																<img src="img/quick-view/10.jpg" alt="" />
 															</div>
 															<div class="tab-pane fade in" id="sin-pro-7">
-																<img src="{% static 'images/quick-view/10.jpg' %}" alt="" />
+																<img src="img/quick-view/10.jpg" alt="" />
 															</div>
 															<div class="tab-pane fade in" id="sin-pro-8">
-																<img src="{% static 'images/quick-view/10.jpg' %}" alt="" />
+																<img src="img/quick-view/10.jpg" alt="" />
 															</div>
 														</div>
 														<div class="quick-thumb">
 															<div class="nav nav-tabs">
 																<ul>
-																	<li><a data-toggle="tab" href="#sin-pro-5"> <img src="{% static 'images/quick-view/10.jpg' %}" alt="quick view" /> </a></li>
-																	<li><a data-toggle="tab" href="#sin-pro-6"> <img src="{% static 'images/quick-view/10.jpg' %}" alt="quick view" /> </a></li>
-																	<li><a data-toggle="tab" href="#sin-pro-7"> <img src="{% static 'images/quick-view/10.jpg' %}" alt="quick view" /> </a></li>
-																	<li><a data-toggle="tab" href="#sin-pro-8"> <img src="{% static 'images/quick-view/10.jpg' %}" alt="quick view" /> </a></li>
+																	<li><a data-toggle="tab" href="#sin-pro-5"> <img src="img/quick-view/10.jpg" alt="quick view" /> </a></li>
+																	<li><a data-toggle="tab" href="#sin-pro-6"> <img src="img/quick-view/10.jpg" alt="quick view" /> </a></li>
+																	<li><a data-toggle="tab" href="#sin-pro-7"> <img src="img/quick-view/10.jpg" alt="quick view" /> </a></li>
+																	<li><a data-toggle="tab" href="#sin-pro-8"> <img src="img/quick-view/10.jpg" alt="quick view" /> </a></li>
 																</ul>
 															</div>
 														</div>
@@ -340,42 +294,42 @@
 							<div id="brand-logo" class="re-owl-carousel21 owl-carousel product-slider owl-theme">
 								<div class="col-xs-12">
 									<div class="single-brand">
-										<a href="#"><img src="{% static 'images/brand/1.png' %}" alt="" /></a>
+										<a href="#"><img src="img/brand/1.png" alt="" /></a>
 									</div>
 								</div>
 								<div class="col-xs-12">
 									<div class="single-brand">
-										<a href="#"><img src="{% static 'images/brand/2.png' %}" alt="" /></a>
+										<a href="#"><img src="img/brand/2.png" alt="" /></a>
 									</div>
 								</div>
 								<div class="col-xs-12">
 									<div class="single-brand">
-										<a href="#"><img src="{% static 'images/brand/3.png' %}" alt="" /></a>
+										<a href="#"><img src="img/brand/3.png" alt="" /></a>
 									</div>
 								</div>
 								<div class="col-xs-12">
 									<div class="single-brand">
-										<a href="#"><img src="{% static 'images/brand/4.png' %}" alt="" /></a>
+										<a href="#"><img src="img/brand/4.png" alt="" /></a>
 									</div>
 								</div>
 								<div class="col-xs-12">
 									<div class="single-brand">
-										<a href="#"><img src="{% static 'images/brand/5.png' %}" alt="" /></a>
+										<a href="#"><img src="img/brand/5.png" alt="" /></a>
 									</div>
 								</div>
 								<div class="col-xs-12">
 									<div class="single-brand">
-										<a href="#"><img src="{% static 'images/brand/6.png' %}" alt="" /></a>
+										<a href="#"><img src="img/brand/6.png" alt="" /></a>
 									</div>
 								</div>
 								<div class="col-xs-12">
 									<div class="single-brand">
-										<a href="#"><img src="{% static 'images/brand/1.png' %}" alt="" /></a>
+										<a href="#"><img src="img/brand/1.png" alt="" /></a>
 									</div>
 								</div>
 								<div class="col-xs-12">
 									<div class="single-brand">
-										<a href="#"><img src="{% static 'images/brand/3.png' %}" alt="" /></a>
+										<a href="#"><img src="img/brand/3.png" alt="" /></a>
 									</div>
 								</div>
 							</div>
@@ -416,5 +370,4 @@
 			</div>
        </section>
        <!-- service section end -->
-
 {% endblock %}
